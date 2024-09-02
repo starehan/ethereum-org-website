@@ -4,7 +4,7 @@ import type {
 } from "@/lib/interfaces"
 
 import { IS_DEV } from "@/lib/utils/env"
-
+hbbh
 export async function fetchCommunityEvents(): Promise<CommunityEventsReturnType> {
   const apiKey = process.env.GOOGLE_API_KEY
   const calendarId = process.env.GOOGLE_CALENDAR_ID
